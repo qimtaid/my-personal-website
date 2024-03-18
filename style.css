@@ -60,7 +60,7 @@ header .navbar li a{
 }
 
 header .navbar li a:hover{
-    color: #ffffd5;
+    color: #A15C38;
 }
 
 .container{
@@ -77,6 +77,15 @@ header .navbar li a:hover{
     position: relative;
     max-width: 700px;
 }
+
+#details {
+    display: flex;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 100px;
+    background-color: #C3A6A0;
+      
+    }
 
 .container .contentBox h2{
     font-size: 4.5em;
@@ -116,3 +125,25 @@ header .navbar li a:hover{
     color: #7a551c;
     background: #ffffd5;
 }
+
+button {
+    padding: 1em 1.2em;
+    background: #9b7239;
+    color: white;
+    font-size: 20px;
+    border-radius: .3em;
+    border: none;
+    border-bottom: 4px solid #aa4b72;
+    cursor: pointer;
+  }
+
+  a {
+    padding: 10px;
+    
+  }
+
+  #welcome {
+    font-size:xx-large;
+    font-family: sans-serif;
+    background-color: #C3A6A0;
+  }
